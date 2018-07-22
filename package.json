@@ -98,6 +98,11 @@
     },
     "lint": {
       "reflinks": true
-    }
+    },
+    "reflinks": [
+      "new-release",
+      "semantic-release",
+      "xaxa"
+    ]
   }
 }
