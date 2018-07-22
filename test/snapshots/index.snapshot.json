@@ -1,0 +1,24 @@
+{
+  "config should have extends property": {
+    "skip": false,
+    "todo": false,
+    "run": false,
+    "isPending": false,
+    "isRejected": false,
+    "isFulfilled": true,
+    "id": 1,
+    "str": "(t) => {\n  t.deepEqual(config.extends, [\n    'airbnb',\n    'prettier',\n    'prettier/flowtype',\n    'prettier/react',\n  ]);\n}",
+    "title": "config should have extends property"
+  },
+  "config should have plugins property": {
+    "skip": false,
+    "todo": false,
+    "run": false,
+    "isPending": false,
+    "isRejected": false,
+    "isFulfilled": true,
+    "id": 2,
+    "str": "(t) => {\n  t.deepEqual(config.plugins, [\n    'promise',\n    'unicorn',\n    'flowtype',\n    'node',\n    'prettier',\n  ]);\n}",
+    "title": "config should have plugins property"
+  }
+}
