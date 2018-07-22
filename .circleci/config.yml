@@ -3,12 +3,12 @@ version: 2
 node8: &node8
   working_directory: ~/eslint-config-xaxa
   docker:
-    - image: circleci/node:8.9
+    - image: circleci/node:8
 
 node10: &node10
   working_directory: ~/eslint-config-xaxa
   docker:
-    - image: circleci/node:10.6
+    - image: circleci/node:10
 
 restore_modules_cache: &restore_modules_cache
   restore_cache:
