@@ -13,13 +13,13 @@
   },
   "dependencies": {
     "babel-eslint": "^8.2.5",
-    "eslint": "^5.0.0",
+    "eslint": "^4.19.1",
     "eslint-config-airbnb": "^17.0.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-flowtype": "^2.50.0",
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-jsx-a11y": "^6.1.0",
-    "eslint-plugin-node": "^7.0.0",
+    "eslint-plugin-node": "^6.0.1",
     "eslint-plugin-prettier": "^2.6.2",
     "eslint-plugin-promise": "^3.8.0",
     "eslint-plugin-react": "^7.10.0",
@@ -48,7 +48,17 @@
     "extends": "./src/index.js"
   },
   "renovate": {
-    "extends": "tunnckocore"
+    "extends": "tunnckocore",
+    "packageRules": [
+      { 
+        "packageNames": ["eslint-plugin-node"],
+        "allowedVersions": "< 7"
+      },
+      { 
+        "packageNames": ["eslint"], 
+        "allowedVersions": "< 5"
+      }
+    ]
   },
   "nyc": {
     "statements": 0,
