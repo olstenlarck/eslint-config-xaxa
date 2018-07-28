@@ -23,7 +23,7 @@
     "eslint-plugin-prettier": "^2.6.2",
     "eslint-plugin-promise": "^3.8.0",
     "eslint-plugin-react": "^7.10.0",
-    "eslint-plugin-unicorn": "^4.0.3",
+    "eslint-plugin-unicorn": "^5.0.0",
     "prettier": "^1.13.7"
   },
   "devDependencies": {
