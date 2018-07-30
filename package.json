@@ -23,7 +23,7 @@
     "eslint-plugin-prettier": "^2.6.2",
     "eslint-plugin-promise": "^3.8.0",
     "eslint-plugin-react": "^7.10.0",
-    "eslint-plugin-unicorn": "^5.0.0",
+    "eslint-plugin-unicorn": "^4.0.3",
     "prettier": "^1.13.7"
   },
   "devDependencies": {
@@ -56,6 +56,10 @@
       },
       { 
         "packageNames": ["eslint"], 
+        "allowedVersions": "< 5"
+      },
+      {
+        "packageNames": ["eslint-plugin-unicorn"],
         "allowedVersions": "< 5"
       }
     ]
