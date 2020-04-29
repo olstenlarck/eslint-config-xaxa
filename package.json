@@ -24,7 +24,7 @@
     "eslint-plugin-promise": "^4.0.0",
     "eslint-plugin-react": "^7.10.0",
     "eslint-plugin-unicorn": "^4.0.3",
-    "prettier": "^1.13.7"
+    "prettier": "^2.0.0"
   },
   "devDependencies": {
     "ascjs": "^3.0.0",
