@@ -27,7 +27,7 @@
     "prettier": "^1.13.7"
   },
   "devDependencies": {
-    "ascjs": "^3.0.0",
+    "ascjs": "^4.0.0",
     "asia": "^0.19.6",
     "gitcommit": "^1.0.8",
     "new-release": "^5.0.0",
